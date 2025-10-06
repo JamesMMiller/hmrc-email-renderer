@@ -183,6 +183,7 @@ trait TemplateLocator {
       "DPRS"                  -> DprsTemplates.templates,
       "IOSS NETP"             -> IossNetpTemplates.templates,
       "TRE"                   -> treTemplates.templates,
+      "Pillar 2"              -> Pillar2Templates.templates,
       FeedbackTemplates.id    -> FeedbackTemplates.templates,
       "NGR"                   -> NgrTemplates.templates
     )
