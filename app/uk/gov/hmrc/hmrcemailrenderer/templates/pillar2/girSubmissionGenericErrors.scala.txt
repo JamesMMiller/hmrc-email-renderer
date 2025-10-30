@@ -10,7 +10,7 @@
   }
 }
 
-GloBE Information Return (GIR) – Errors Identified. Please Re-submit
+GloBE Information Return
 
 Reference ID: @{params("referenceId")}
 

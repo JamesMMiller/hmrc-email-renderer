@@ -10,7 +10,7 @@
   }
 }
 
-GloBE Information Return (GIR) – Critical Schema or Business Rule failure. Please check and re-submit.
+GloBE Information Return
 
 Reference ID: @{params("referenceId")}
 

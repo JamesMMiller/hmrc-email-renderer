@@ -1,4 +1,4 @@
-@(params: Map[String, Any])GloBE Information Return (GIR) – Successful Submission
+@(params: Map[String, Any])GloBE Information Return
 
 Reference ID: @{params("referenceId")}
 

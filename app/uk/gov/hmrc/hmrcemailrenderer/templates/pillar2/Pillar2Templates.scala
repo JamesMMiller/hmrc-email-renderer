@@ -46,11 +46,11 @@ object Pillar2Templates {
       templateId = "pillar2_gir_submission_critical_errors",
       fromAddress = FromAddress.noReply("pillar2"),
       service = Pillar2,
-      subject = "GloBE Information Return (GIR) – Critical Schema or Business Rule failure. Please check and re-submit.",
+      subject =
+        "GloBE Information Return (GIR) – Critical Schema or Business Rule failure. Please check and re-submit.",
       plainTemplate = txt.girSubmissionCriticalErrors.f,
       htmlTemplate = html.girSubmissionCriticalErrors.f,
       priority = Some(MessagePriority.Urgent)
     )
   )
 }
-
