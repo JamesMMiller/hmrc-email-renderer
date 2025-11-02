@@ -25,6 +25,7 @@ import uk.gov.hmrc.hmrcemailrenderer.templates.tctr.TctrTemplates._
 import uk.gov.hmrc.hmrcemailrenderer.templates.customsfinancials.CustomsFinancialsTemplates.customsFinancialsChangeEmailAddress
 
 import java.util.{ Base64, UUID }
+import scala.io.Source
 
 object TemplateParams {
   val exampleLinkWithRandomId = s"http://host:8080/your/link/${UUID.randomUUID}"
@@ -4029,6 +4030,8 @@ object TemplateParams3 {
       "submissionTime"        -> "15:20",
       "accountingPeriodStart" -> "01/04/2024",
       "accountingPeriodEnd"   -> "31/03/2025",
+      // Using minimal example to avoid URI length limits in preview links
+      // For full error list testing, see GENERIC_ERRORS_TESTING.md
       "errors" -> stringify(parse("""[
           {
             "errorCode": "Error Code 16",
@@ -4055,6 +4058,8 @@ object TemplateParams3 {
       "pillar2Id"      -> "XMPLR5556667777",
       "submissionDate" -> "15/10/2025",
       "submissionTime" -> "16:45",
+      // Using minimal example to avoid URI length limits in preview links
+      // For full error list testing, load from app/preview/errorData.json
       "errors" -> stringify(parse("""[
           {
             "errorCode": "Temp Pillar 2 Error Code 1",
