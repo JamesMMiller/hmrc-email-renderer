@@ -1,0 +1,1088 @@
+[
+  {
+    "errorCode": "Temp Pillar 2 Error Code 1",
+    "description": "Submissions must not include Prohibited Characters or Entity References in the MessageRefId or DocRefId.\n\nSubmissions must not include Prohibited Characters, these have to be escaped using Entity References in all element values in the DPIBody.\n\nSubmissions must not include any of the Character Combinations in the SQL threat injection list.",
+    "docRefIds": "GB2025XMPLR0000000021",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 2",
+    "description": "The referenced file failed validation against the GIR XML Schema.",
+    "docRefIds": "GB2025XMPLR0000000022",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 3",
+    "description": "Following whitespace collapse, the referenced file failed validation against the GIR XML Schema.",
+    "docRefIds": "GB2025XMPLR0000000023",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 4",
+    "description": "The referenced file contains one or more records with a DocTypeIndic value in the range OECD10-OECD13, indicating test data. As a result, the receiving Competent Authority cannot accept this file as a valid GIR file submission.",
+    "docRefIds": "GB2025XMPLR0000000024",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 5",
+    "description": "The TransmittingCountry element must be GB.",
+    "docRefIds": "GB2025XMPLR0000000025",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 6",
+    "description": "The ReceivingCountry element must be GB.",
+    "docRefIds": "GB2025XMPLR0000000026",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 8",
+    "description": "The structure of the MessageRefId is not in the correct format, as set out in the HMRC Pillar 2 Business Rules.",
+    "docRefIds": "GB2025XMPLR0000000028",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 45",
+    "description": "MessageRefId must match file name.",
+    "docRefIds": "GB2025XMPLR0000000245",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 9",
+    "description": "The GIR Message Header has a duplicate MessageRefID value that was received on a previous file.",
+    "docRefIds": "GB2025XMPLR0000000029",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 10",
+    "description": "The ReportingPeriod element cannot contain a date beyond the end of the current calendar year.",
+    "docRefIds": "GB2025XMPLR0000000210",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 11",
+    "description": "The ReportingPeriod element cannot contain a date earlier than 2024.",
+    "docRefIds": "GB2025XMPLR0000000211",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 44",
+    "description": "The GLOBEBody element can only be present once per XML submission.",
+    "docRefIds": "GB2025XMPLR0000000244",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 12",
+    "description": "The Parent record (FilingInfo) cannot be deleted without deleting all related Child records contained within the GeneralSection (either in same message or in previous messages).",
+    "docRefIds": "GB2025XMPLR0000000212",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 13",
+    "description": "The message can contain either new reports (OECD1) or correction/deletion reports (OECD2 or OECD3), but cannot contain a mixture of both.",
+    "docRefIds": "GB2025XMPLR0000000213",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 14",
+    "description": "The Resend option (OECD0) can only be used with respect to the FilingInfo element.",
+    "docRefIds": "GB2025XMPLR0000000214",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 15",
+    "description": "The DocRefId(s) are not unique across all messages received to date.",
+    "docRefIds": "GB2025XMPLR0000000215",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 16",
+    "description": "The structure of the DocRefId is not in the correct format, as set out in the HMRC Pillar 2 Business Rules.",
+    "docRefIds": "GB2025XMPLR0000000216",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 17",
+    "description": "An unknown DocRefId was specified for the Resend option (OECD0).",
+    "docRefIds": "GB2025XMPLR0000000217",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 19",
+    "description": "The CorrDocRefId refers to an unknown record.",
+    "docRefIds": "GB2025XMPLR0000000219",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 20",
+    "description": "Where the DocTypeIndic is OECD1, the DocSpec element cannot contain a CorrDocRefId element.",
+    "docRefIds": "GB2025XMPLR0000000220",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 21",
+    "description": "Where the DocTypeIndic is OECD2 or OECD3, the DocSpec element must contain a CorrDocRefId element.",
+    "docRefIds": "GB2025XMPLR0000000221",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 22",
+    "description": "A DocRefId cannot be corrected, amended or deleted more than once in the same message.",
+    "docRefIds": "GB2025XMPLR0000000222",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 23",
+    "description": "The CorrDocRefId refers to a DocRefId that has been invalidated or outdated by a previous correction message.",
+    "docRefIds": "GB2025XMPLR0000000223",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 24",
+    "description": "The CorrDocRefId refers to a different element to that which it is correcting.",
+    "docRefIds": "GB2025XMPLR0000000224",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 25",
+    "description": "Where the FilingInfo DocTypeIndic element is OECD0, the GeneralSection DocTypeIndic element must not be OECD1.",
+    "docRefIds": "GB2025XMPLR0000000225",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 26",
+    "description": "Where the FilingInfo DocTypeIndic element is OECD1, the GeneralSection must be provided.",
+    "docRefIds": "GB2025XMPLR0000000226",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 43",
+    "description": "Where the value of FilingInfo DoctypeIndic element is OECD0 or OECD2,  the value of GeneralSection DocTypeIndic element must not be OECD3.",
+    "docRefIds": "GB2025XMPLR0000000243",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 27",
+    "description": "Reporting Period End Date must be the same as the Reporting Period in the Message Header.",
+    "docRefIds": "GB2025XMPLR0000000227",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 28",
+    "description": "Period start date must not be later than the Period end date",
+    "docRefIds": "GB2025XMPLR0000000228",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 29",
+    "description": "Where TypeOfTIN element is GIR3004, the TIN element must be NOTIN, the Unknown attribute must be TRUE and the issuedBy attribute must not be provided.",
+    "docRefIds": "GB2025XMPLR0000000229",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 30",
+    "description": "Where the TIN element is NOTIN, the TypeOfTIN element must be GIR3004, the Unknown attribute must be TRUE and the issuedBy attribute must not be provided.",
+    "docRefIds": "GB2025XMPLR0000000230",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 31",
+    "description": "Where the Unknown attribute is TRUE, the TypeOfTIN element must be GIR3004, the TIN element must be NOTIN and the issuedBy attribute must not be provided.",
+    "docRefIds": "GB2025XMPLR0000000231",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 32",
+    "description": "Where the TypeOfTIN attribute is GIR3001 or GIR3002, the issuedBy and Unknown attributes must be present.",
+    "docRefIds": "GB2025XMPLR0000000232",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 33",
+    "description": "The TIN elements under the Corporate Structure section (except Ownership/TIN and PreOwnership/TIN elements) and the CE Computation / Elections / Aggregated Reporting / TaxConsolGroupTIN element must not be completed using TypeofTIN GIR3004 and must not be flagged Unknown.",
+    "docRefIds": "GB2025XMPLR0000000233",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 34",
+    "description": "Where the TypeofTIN entered is GIR3003 a reference must be created in the format [P2JJYYYYMMDDCCCXXX where P2 is constant, JJ is the ISO Code of the jurisdiction of location of the Constituent Entity, YYYYMMDD refers to the date of creation of the reference, CCC is a three letter reference to the company or group, and XXX is a unique number for the entity within the GIR e.g. 001, 002, 003 to differentiate between multiple entites with designated references in the same report]. This reference is superseded only in the case that a government or administration issues a tax reference or functional equivalent for the entity.",
+    "docRefIds": "GB2025XMPLR0000000234",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 35",
+    "description": "Where the AdditionalDataPoint element is present, the Description element must be provided.",
+    "docRefIds": "GB2025XMPLR0000000235",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 36",
+    "description": "At least one Country ISO Code in RecJurCode must be the same as the ReceivingCountry.",
+    "docRefIds": "GB2025XMPLR0000000236",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 38",
+    "description": "When the role is GIR401, the FilingCE TIN should match the TIN provided in the ID of the UPE element, whether it is OtherUPE or ExcludedUPE.",
+    "docRefIds": "GB2025XMPLR0000000238",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 39",
+    "description": "The ResCountryCode of the FIlingCE must match to the TransmittingCountry.",
+    "docRefIds": "GB2025XMPLR0000000239",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 40",
+    "description": "The UPE GlobeStatus must not be GIR305, GIR307, GIR308, GIR309, GIR312, GIR313, GIR314, GIR315, GIR316, GIR318.",
+    "docRefIds": "GB2025XMPLR0000000240",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 41",
+    "description": "Only one value is allowed for the ResCountryCode of the UPE/OtherUPE.",
+    "docRefIds": "GB2025XMPLR0000000241",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 42",
+    "description": "Only one value is allowed for the ResCountryCode of the CE.",
+    "docRefIds": "GB2025XMPLR0000000242",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 46",
+    "description": "With OECD0, the CorrDocRefId must not be present.",
+    "docRefIds": "GB2025XMPLR0000000246",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 47",
+    "description": "If MessageTypeIndic is GIR101, the FilingInfo DocTypeIndic must be OECD0 or OECD1 and the remaining DocTypeIndic(s) must be OECD1 .",
+    "docRefIds": "GB2025XMPLR0000000247",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 48",
+    "description": "If MessageTypeIndic is GIR102, it must not contain the DocTypeIndic of OECD1.",
+    "docRefIds": "GB2025XMPLR0000000248",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 50",
+    "description": "The CorrDocRefId specified does not relate to the Parent record (FilingInfo DocRefId).",
+    "docRefIds": "GB2025XMPLR0000000250",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 51",
+    "description": "The ReportingPeriod of the MessageSpec cannot be changed.",
+    "docRefIds": "GB2025XMPLR0000000251",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 52",
+    "description": "The MessageTypeIndic GIR103 is not allowed.",
+    "docRefIds": "GB2025XMPLR0000000252",
+    "count": "1"
+  },
+  {
+    "errorCode": "Temp Pillar 2 Error Code 53",
+    "description": "The MessageSpec.SendingEntityIN must be present and must match an active PLR ID associated with the user.",
+    "docRefIds": "GB2025XMPLR0000000253",
+    "count": "1"
+  },
+  {
+    "errorCode": "60019",
+    "description": "The role provided for the Filing CE is GIR403, GIR404 or GIR405, which indicates that GIR is being filed locally and must not be exchanged. The RecJurCode must be GB.",
+    "docRefIds": "GB2025XMPLR0000060019",
+    "count": "1"
+  },
+  {
+    "errorCode": "60024",
+    "description": "If the Summary contains any of the following elements: SafeHarbour, ETRRange, SBIE, QDMTTut, GLoBETut, then the JurWithTaxingRights/JurisdictionName must be provided.",
+    "docRefIds": "GB2025XMPLR0000060024",
+    "count": "1"
+  },
+  {
+    "errorCode": "60025",
+    "description": "The ETRRate must be equal to the integer value reported at the AdjustedCoveredTax/Total element DIVIDED by the integer reported at the NetGlobeIncome/Total element.\n\n(If AdjustedCoveredTax/Total element has not been provided, then value has been assumed to be 0).",
+    "docRefIds": "GB2025XMPLR0000060025",
+    "count": "1"
+  },
+  {
+    "errorCode": "60026",
+    "description": "TopUpTax must equal the following calculation:\n(TopUpTaxPercentage * ExcessProfits) + (NONArt.4.1.5/AdditionalTopUpTax + Art4.1.5/AdditionalTopUpTax) - QDMTT/Amount.\n\nIf any elements are not provided, these have been assumed to be 0.",
+    "docRefIds": "GB2025XMPLR0000060026",
+    "count": "1"
+  },
+  {
+    "errorCode": "60027",
+    "description": "The IIR/ParentEntity/TopUpTax integer must equal the following calculation: TopUpTaxShare - IIROffSet",
+    "docRefIds": "GB2025XMPLR0000060027",
+    "count": "1"
+  },
+  {
+    "errorCode": "60028",
+    "description": "The AdjustedFANIL/Total must equal the following calculation:\nAdjustedFANIL/FANIL + (sum of all MainEntityPEandFTE/Additions elements) - (sum of all MainEntityPEandFTE/Reductions elements)",
+    "docRefIds": "GB2025XMPLR0000060028",
+    "count": "1"
+  },
+  {
+    "errorCode": "70008",
+    "description": "The Jurisdiction reported in the RecJurCode must be the UPE jurisdiction or one of the jurisdictions reported in the JurisdictionName element of the repeatable JurWithTaxingRights element.",
+    "docRefIds": "GB2025XMPLR0000070008",
+    "count": "1"
+  },
+  {
+    "errorCode": "70012",
+    "description": "Except for GIR204 (QDMTT), the Rules element must be the same across entities in the same jurisdiction. GIR204 may be omitted, as QDMTTs might not apply to all entities.",
+    "docRefIds": "GB2025XMPLR0000070012",
+    "count": "1"
+  },
+  {
+    "errorCode": "70013",
+    "description": "A CE element has been completed with a GloBE Status which indicates that a entity is both a JV and a JV Subsidiary, please ensure that the GloBEStatus of the same CE does not contain GIR313 and GIR314",
+    "docRefIds": "GB2025XMPLR0000070013",
+    "count": "1"
+  },
+  {
+    "errorCode": "70014",
+    "description": "A CE has been identified as having the GloBE Status of both a Minority-Owned Parent Entity and a Minority-Owned Subsidiary, please ensure that the GloBEStatus of the same CE does not contain GIR307 and GIR308",
+    "docRefIds": "GB2025XMPLR0000070014",
+    "count": "1"
+  },
+  {
+    "errorCode": "70015",
+    "description": "A Minority-Owned Subsidiary has been identified in the Corporate Structue and there is no other CE reported in the corporate Structure which is a Minority-Owned Parent Entity. When the GloBEStatus contains the value of GIR308, then there must be another CE in the corporate structure which contains the value of GIR307.",
+    "docRefIds": "GB2025XMPLR0000070015",
+    "count": "1"
+  },
+  {
+    "errorCode": "70016",
+    "description": "Minority-Owned Parent Entity must also be a Minority-Owned Constituent Entity, as a result when the value of GIR307 is selected for the GloBEStatus then the value of GIR309 must also be provided.",
+    "docRefIds": "GB2025XMPLR0000070016",
+    "count": "1"
+  },
+  {
+    "errorCode": "70017",
+    "description": "A Minority-Owned Subsidiary must also be a Minority-Owned Constituent Entity, as a result when GIR308 is selected for the GloBEStatus then the value of GIR309 must also be selected",
+    "docRefIds": "GB2025XMPLR0000070017",
+    "count": "1"
+  },
+  {
+    "errorCode": "70018",
+    "description": "A CE has been identified as having the GloBE Status of both a Permanent Establishment and a Main entity. When the GloBEStatus contains the value of GIR305, the value of GIR306 must not also be reported for the same CE.",
+    "docRefIds": "GB2025XMPLR0000070018",
+    "count": "1"
+  },
+  {
+    "errorCode": "70019",
+    "description": "A permanent establishment has been reported in the Corporate Structure of the GIR, and no main entity has been reported. When the GloBEStatus contains the value of GIR305, then there must be another CE which contains the GloBEStatus of GIR306.",
+    "docRefIds": "GB2025XMPLR0000070019",
+    "count": "1"
+  },
+  {
+    "errorCode": "70020",
+    "description": "A Non-Group member or excluded entity was reported in the GloBEStatus and at least one additional GloBEStatus was reported for that entity. When the CE element has the GloBEStatus of GIR316 or GIR318 there should be no other value in the GloBEStatus. For example when the GloBEStatus of GIR316 is provided, no other GloBEStatus can be provided for that CE.",
+    "docRefIds": "GB2025XMPLR0000070020",
+    "count": "1"
+  },
+  {
+    "errorCode": "70021",
+    "description": "The GloBEStatus of a CE can only contain the value of GIR316 'Excluded Entity' or GIR318 'Non-Group Member' when there has been a change in the GloBE Status of the reported CE.\nTherefore, OwnershipChange element which indicates the GloBEStatus before the entity became an Excluded Entity or a 'Non-Group Member' must be completed and a TIN matching the CE's TIN must be present in PreOwnership.",
+    "docRefIds": "GB2025XMPLR0000070021",
+    "count": "1"
+  },
+  {
+    "errorCode": "70022",
+    "description": "An ownership change has a change date which takes place before the reporting fiscal year",
+    "docRefIds": "GB2025XMPLR0000070022",
+    "count": "1"
+  },
+  {
+    "errorCode": "70023",
+    "description": "An ownership change has a change date which takes place after the reporting fiscal year",
+    "docRefIds": "GB2025XMPLR0000070023",
+    "count": "1"
+  },
+  {
+    "errorCode": "70024",
+    "description": "Where an entity was an excluded entity before the change, then the PreOwnership element should not be completed. Therefore the PreOwnership element must not be completed when the PreGlobeStatus has the value of GIR719.",
+    "docRefIds": "GB2025XMPLR0000070024",
+    "count": "1"
+  },
+  {
+    "errorCode": "70025",
+    "description": "When the OwnershipType contains the value of GIR805 or GIR806, indicating that the ownership interests are held in aggregate by non-group members or excluded entities, then the TypeOfTIN must contain the value GIR3004 and the TIN must contain the text, 'NOTIN'.",
+    "docRefIds": "GB2025XMPLR0000070025",
+    "count": "1"
+  },
+  {
+    "errorCode": "70026",
+    "description": "The ownership percentage of a PE must equal 100%. Therefore when the GloBEStatus contains the value of GIR305, then the OwnershipPercentage must equal 100%.",
+    "docRefIds": "GB2025XMPLR0000070026",
+    "count": "1"
+  },
+  {
+    "errorCode": "70027",
+    "description": "When the GloBEStatus is a 'Non-Group Member' (GIR318) as a result of completion of the OwnershipChange element, then the OwnershipPercentage should have the value of 0%, the TIN value should be NOTIN and OwnershipType should be GIR806.",
+    "docRefIds": "GB2025XMPLR0000070027",
+    "count": "1"
+  },
+  {
+    "errorCode": "70028",
+    "description": "The OwnershipPercentage should not be 0% unless the reported ownership percentage is in respect of a Non-Group Member.",
+    "docRefIds": "GB2025XMPLR0000070028",
+    "count": "1"
+  },
+  {
+    "errorCode": "70029",
+    "description": "The ownership type was identified as being the UPE, but none of the TINs provided in either the OtherUPE/ID/TIN or ExcludedUPE/ID/TIN elements match the Ownership/TINprovided in the Ownership element.\n\nWhen the OwnershipType contains the value of GIR801, then the Ownership/TIN provided in the Ownership element must match at least one of the TINs that was reported in either the OtherUPE/ID/TIN or ExcludedUPE/ID/TIN elemts.",
+    "docRefIds": "GB2025XMPLR0000070029",
+    "count": "1"
+  },
+  {
+    "errorCode": "70030",
+    "description": "The ownership type was identified as being a CE, JV or JV Subsidiary but  the Ownership/TIN provided in the Ownership element does not match to a TIN that was reported in the CE element via the ID/TIN.\n\nWhen the OwnershipType contains the value of GIR802, GIR803 or GIR804, then the Ownership/TIN provided in the Ownership element must match to a TIN that was reported in the CE element via the ID/TIN.",
+    "docRefIds": "GB2025XMPLR0000070030",
+    "count": "1"
+  },
+  {
+    "errorCode": "70031",
+    "description": "When GloBEStatus is GIR305, then the ownership/TIN must match at least one TIN within a CE with GloBEStatus of GIR306. The ownership TIN of a CE identified as being a PE must match the TIN of a CE which is a main entity",
+    "docRefIds": "GB2025XMPLR0000070031",
+    "count": "1"
+  },
+  {
+    "errorCode": "70032",
+    "description": "The QIIR element has been provided for a CE which is in a jurisdiction which does not have a QIIR selected in the Rules element. When the QIIR element is provided, then the Rules element as provided in the CE element must contain either GIR201 or GIR202.",
+    "docRefIds": "GB2025XMPLR0000070032",
+    "count": "1"
+  },
+  {
+    "errorCode": "70033",
+    "description": "The TIN provided to identify either the POPE or IPE does not match with an existing TIN in the corporate structure",
+    "docRefIds": "GB2025XMPLR0000070033",
+    "count": "1"
+  },
+  {
+    "errorCode": "70034",
+    "description": "If the POPE-IPE element has the value of 'GIR902 \u2013 IPE' and the Exception element is completed because an exception applies, the Art.2.1.3 element must have the status of TRUE.",
+    "docRefIds": "GB2025XMPLR0000070034",
+    "count": "1"
+  },
+  {
+    "errorCode": "70035",
+    "description": "If the POPE-IPE element has the value of 'GIR901 \u2013 POPE' and the Exception element is completed because an exception applies, the Art.2.1.5 element must have the status of TRUE.",
+    "docRefIds": "GB2025XMPLR0000070035",
+    "count": "1"
+  },
+  {
+    "errorCode": "70036",
+    "description": "The number of Summary sections provided for a jurisdiction must match the number of subgroup elements reported within that jurisdiction. In each of these Summary sections provided for the jurisdiction the details of every subgroup element reported for that jurisdiction must also be provided.\n\nFor example, if there are 3 Subgroup elements reported for a jurisdiction, then there must be 3 Summary sections for that jurisdiction, and each of these Summary sections must contain details of all 3 Subgroups.",
+    "docRefIds": "GB2025XMPLR0000070036",
+    "count": "1"
+  },
+  {
+    "errorCode": "70037",
+    "description": "The summary section for a jurisdiction indicates that there is a subgroup with a separate ETR or Top-up Tax computation, while for the same jurisdiction in the Jurisdiction Section, no separate set of subgroup calculations has been provided.\n\nWhere a subgroup element is completed in the 'Summary', then the Subgroup element in the 'JurisdictionSection' should also be completed. The TIN must match to the corresponding TIN in the JurisdictionSection/GLoBETax/ETR/SubGroup.",
+    "docRefIds": "GB2025XMPLR0000070037",
+    "count": "1"
+  },
+  {
+    "errorCode": "70038",
+    "description": "The Transitional CbCR Safe Harbour has been selected for a reporting fiscal year that is after 30/06/2028.",
+    "docRefIds": "GB2025XMPLR0000070038",
+    "count": "1"
+  },
+  {
+    "errorCode": "70039",
+    "description": "The Transitional UTPR Safe Harbour has been selected for a reporting fiscal year that is after 31/12/2026.",
+    "docRefIds": "GB2025XMPLR0000070039",
+    "count": "1"
+  },
+  {
+    "errorCode": "70040",
+    "description": "The Transitional UTPR Safe Harbour has been applied in a jurisdiction which is not the UPE Jurisdiction",
+    "docRefIds": "GB2025XMPLR0000070040",
+    "count": "1"
+  },
+  {
+    "errorCode": "70041",
+    "description": "When the FilingInfo CFSofUPE has the input of GIR502 or GIR504, then SafeHarbour element cannot have the input of GIR1207, GIR1208 or GIR1209.\n\nThe Non-material Constituent Entity (NMCE) Simplified Calculations can only be completed where the UPE prepares Consolidated Financial Statements as defined by paragraphs (a) and (c) of the Consolidated Financial Statements definition in Article 10.1.1 of the GloBE Rules.",
+    "docRefIds": "GB2025XMPLR0000070041",
+    "count": "1"
+  },
+  {
+    "errorCode": "70042",
+    "description": "If the JurWithTaxingRights element is completed, and the Safe Harbour element is not completed or only has the value of GIR1206, then the elements ETRRange, SBIE, QDMTTut and GloBETut must be completed.",
+    "docRefIds": "GB2025XMPLR0000070042",
+    "count": "1"
+  },
+  {
+    "errorCode": "70043",
+    "description": "If the JurWithTaxingRights element is completed, and the Safe Harbour element has the value of GIR1202, then the elements ETRRange, SBIE and QDMTTut must be completed.",
+    "docRefIds": "GB2025XMPLR0000070043",
+    "count": "1"
+  },
+  {
+    "errorCode": "70044",
+    "description": "When the ETRStatus is completed, it must contain at least one of ETRException or ETRComputation.",
+    "docRefIds": "GB2025XMPLR0000070044",
+    "count": "1"
+  },
+  {
+    "errorCode": "70045",
+    "description": "A Transitional CbCR Safe Harbour has been selected in the summary section of the GIR, but no corresponding TransitionalCbCR element with the relevant CbCR calculations for the Tested Jurisdiction has been provided.\n\nTherefore when the SafeHarbour element has the input of GIR1203, GIR1204 or GIR1205 for a jurisdiction (or for a subgroup), then the TransitionalCbCRSafeHarbour element for that jurisdiction (or for that subgroup) must be completed.",
+    "docRefIds": "GB2025XMPLR0000070045",
+    "count": "1"
+  },
+  {
+    "errorCode": "70046",
+    "description": "When the TransitionalCbCRSafeHarbour is completed for a jurisdiction, then Subgroup element of the ETR must be completed, the TypeofSubGroup must contain either GIR1607 or GIR1608.",
+    "docRefIds": "GB2025XMPLR0000070046",
+    "count": "1"
+  },
+  {
+    "errorCode": "70047",
+    "description": "As the Deminimis CbCR safe harbour has been completed, the Revenue element for the tested jurisdiction must also be provided.\n\nTherefore when the SafeHarbour element has the input of GIR1203 for a jurisdiction (or for a subgroup), then the revenue element must be completed for that jurisdiction (or for that subgroup).",
+    "docRefIds": "GB2025XMPLR0000070047",
+    "count": "1"
+  },
+  {
+    "errorCode": "70048",
+    "description": "As the Simplified ETR Test has been selected for the Tested Jurisdiction, the IncomeTax element must also be provided.\n\nTherefore when the SafeHarbour element has the input of GIR1204 for a jurisdiction (or for a subgroup), then the IncomeTax element must be completed for that jurisdiction (or for that subgroup).",
+    "docRefIds": "GB2025XMPLR0000070048",
+    "count": "1"
+  },
+  {
+    "errorCode": "70049",
+    "description": "The UTPR safe harbour has been selected for a jurisdiction, therefore the UTPRSafeHarbour element must be completed and the CIT rate must be provided.\n\nTherefore when the SafeHarbour element has the input of GIR1206 for a jurisdiction (or for a subgroup), then the UTPRSafeHarbour element must be completed for that jurisdiction (or for that subgroup).",
+    "docRefIds": "GB2025XMPLR0000070049",
+    "count": "1"
+  },
+  {
+    "errorCode": "70050",
+    "description": "When the SafeHarbour element has the input of GIR1207, GIR1208 or GIR1209 for a jurisdiction (or for a subgroup), then the Non-MaterialCE element must be completed for that jurisdiction (or for that subgroup)",
+    "docRefIds": "GB2025XMPLR0000070050",
+    "count": "1"
+  },
+  {
+    "errorCode": "70051",
+    "description": "When the SafeHarbour element has the input of GIR1208 for a jurisdiction (or for a subgroup), then the AggregateSimplified element must be completed for that jurisdiction (or for that subgroup)",
+    "docRefIds": "GB2025XMPLR0000070051",
+    "count": "1"
+  },
+  {
+    "errorCode": "70052",
+    "description": "The Routine Profit Test for NMCEs requires the SubstanceExclusion element to be completed.\n\nTherefore when the SafeHarbour element has the input of GIR1209 for a jurisdiction (or for a subgroup), then the SubstanceExclusion element must be completed for that jurisdiction (or for that subgroup).",
+    "docRefIds": "GB2025XMPLR0000070052",
+    "count": "1"
+  },
+  {
+    "errorCode": "70053",
+    "description": "The Routine Profits Test for the Transitional CbCR safe harbour must be completed, unless the Profit for the jurisdiction is 0 or a negative value.\n\nTherefore when the SafeHarbour element has the input of GIR1205 for a jurisdiction (or for a subgroup) then the SubstanceExclusion element must be completed for that jurisdiction (or for a subgroup). Unless the Profit element is either 0 or a negative value.",
+    "docRefIds": "GB2025XMPLR0000070053",
+    "count": "1"
+  },
+  {
+    "errorCode": "70054",
+    "description": "RevocationYear is only to be provided when the status is FALSE. When the Status is TRUE, the election has been made and has not been revoked. When the Status is FALSE, this indicates that the election has been revoked, as such the RevocationYear is only to be provided when the status is FALSE.",
+    "docRefIds": "GB2025XMPLR0000070054",
+    "count": "1"
+  },
+  {
+    "errorCode": "70055",
+    "description": "The OutStandingBalance amount does not equal the provided figures. The OutstandingBalance should be equal to the following calculation:\nQualOwnerIntentBalance + Additions - Reductions",
+    "docRefIds": "GB2025XMPLR0000070055",
+    "count": "1"
+  },
+  {
+    "errorCode": "70056",
+    "description": "RevocationYear can only be provided when the status is FALSE.",
+    "docRefIds": "GB2025XMPLR0000070056",
+    "count": "1"
+  },
+  {
+    "errorCode": "70057",
+    "description": "If an AggregateReporting election has been made the CE Computations must have a TIN that matches to a TIN of the tax consolidated group in the jurisdiction.",
+    "docRefIds": "GB2025XMPLR0000070057",
+    "count": "1"
+  },
+  {
+    "errorCode": "70058",
+    "description": "The CE who is making the election under article 7.6 must be different from the investment entity who the election is made in respect of. Therefore the InvestmentEntityTIN must not be the same as the CEComputations TIN.",
+    "docRefIds": "GB2025XMPLR0000070058",
+    "count": "1"
+  },
+  {
+    "errorCode": "70059",
+    "description": "Each code for this AdjustmentItem element cannot be used more than once per ETR element in the Jurisdiction Section",
+    "docRefIds": "GB2025XMPLR0000070059",
+    "count": "1"
+  },
+  {
+    "errorCode": "70060",
+    "description": "An adjustment under article 3.3 has been made without completing the IntShippingIncome element. When the 'AdjustmentItem' element contains the value GIR2025 then the 'IntShippingIncome' element must be completed.",
+    "docRefIds": "GB2025XMPLR0000070060",
+    "count": "1"
+  },
+  {
+    "errorCode": "70061",
+    "description": "When the 'Art4.6.1' election has the value of TRUE, one of the AdjustmentItem elements provided for AdjustedCoveredTax must contain GIR2711 and the reported 'amount' for this AdjustmentItem element must be a negative figure.",
+    "docRefIds": "GB2025XMPLR0000070061",
+    "count": "1"
+  },
+  {
+    "errorCode": "70062",
+    "description": "If the AdjustmentItem element has the value of GIR2720, then the total of the AdjustedCoveredTax for the jurisdiction cannot be a negative. The Excess Negative Tax Expense cannot reduce the AdjustedCoveredTaxes for a jurisdiction below 0.",
+    "docRefIds": "GB2025XMPLR0000070062",
+    "count": "1"
+  },
+  {
+    "errorCode": "70063",
+    "description": "Each code for this AdjustmentItem element cannot be used more than once per ETR element in the Jurisdiction Section.",
+    "docRefIds": "GB2025XMPLR0000070063",
+    "count": "1"
+  },
+  {
+    "errorCode": "70064",
+    "description": "The PostFilingAdjust / DeferTaxAsset / Total should equal to the following calculation: sum of all \u2018PostFilingAdjust / DeferTaxAsset / AmountAttributed / Amount\u2019",
+    "docRefIds": "GB2025XMPLR0000070064",
+    "count": "1"
+  },
+  {
+    "errorCode": "70065",
+    "description": "The PostFilingAdjust / CoveredTaxRefund / Total should equal to the following calculation: Sum of all \u2018PostFilingAdjust / CoveredTaxRefund / AmountAttributed / Amount\u2019",
+    "docRefIds": "GB2025XMPLR0000070065",
+    "count": "1"
+  },
+  {
+    "errorCode": "70066",
+    "description": "The YYYY value provided for the Year of the Loss Carry Back must be the same or an earlier year compared to the YYYY value reported in the Period Start Date.",
+    "docRefIds": "GB2025XMPLR0000070066",
+    "count": "1"
+  },
+  {
+    "errorCode": "70067",
+    "description": "If more than one AmountAttributed is provided, the years cannot be the same",
+    "docRefIds": "GB2025XMPLR0000070067",
+    "count": "1"
+  },
+  {
+    "errorCode": "70068",
+    "description": "The YYYY value provided for the Year of the Loss Carry Back must be the same or an earlier year compared to the YYYY value reported in the Period Start Date.",
+    "docRefIds": "GB2025XMPLR0000070068",
+    "count": "1"
+  },
+  {
+    "errorCode": "70069",
+    "description": "If more than one AmountAttributed is provided, the years cannot be the same",
+    "docRefIds": "GB2025XMPLR0000070069",
+    "count": "1"
+  },
+  {
+    "errorCode": "70070",
+    "description": "The deemed distribution tax election under article 7.3.1 has been made for a year which is not the Reporting Fiscal Year or a prior Fiscal Year.",
+    "docRefIds": "GB2025XMPLR0000070070",
+    "count": "1"
+  },
+  {
+    "errorCode": "70071",
+    "description": "The year cannot contain a date which is 4 years or more before the Period End Date (i.e. Reporting Fiscal Year and previous 3 Fiscal Years)",
+    "docRefIds": "GB2025XMPLR0000070071",
+    "count": "1"
+  },
+  {
+    "errorCode": "70072",
+    "description": "The EndAmount is equal to the following calculation: StartAmount - TotalDDT",
+    "docRefIds": "GB2025XMPLR0000070072",
+    "count": "1"
+  },
+  {
+    "errorCode": "70073",
+    "description": "The EndAmount must not be a negative.",
+    "docRefIds": "GB2025XMPLR0000070073",
+    "count": "1"
+  },
+  {
+    "errorCode": "70074",
+    "description": "The TotalDDT is equal to the following calculation: DDTYear-0 + DDTYear-1 + DDTYear-2 + DDTYear-3",
+    "docRefIds": "GB2025XMPLR0000070074",
+    "count": "1"
+  },
+  {
+    "errorCode": "70075",
+    "description": "When the Year equals the YYYY value reported in the Period End Date, then the following elements should be completed by entering '0': DDTYear-0, DDTYear-1, DDTYear-2 and DDTYear-3",
+    "docRefIds": "GB2025XMPLR0000070075",
+    "count": "1"
+  },
+  {
+    "errorCode": "70076",
+    "description": "The TransBlendCFC total should equal the following calculation: Sum of all 'AggAllocTax'",
+    "docRefIds": "GB2025XMPLR0000070076",
+    "count": "1"
+  },
+  {
+    "errorCode": "70077",
+    "description": "The total element should be equal to the following calculation: PreRecast + Recast/Lower - Recast/Higher\n\nIf Recast/Lower and/or Recast/Higher is not provided, then they are assumed to be 0.",
+    "docRefIds": "GB2025XMPLR0000070077",
+    "count": "1"
+  },
+  {
+    "errorCode": "70078",
+    "description": "The BefRecastAdjust element should be equal to the following calculation: DefTaxAmt - DiffCarryValue + GLoBEValue",
+    "docRefIds": "GB2025XMPLR0000070078",
+    "count": "1"
+  },
+  {
+    "errorCode": "70079",
+    "description": "The PreRecast element should be equal to the following calculation: BefRecastAdjust + TotalAdjust",
+    "docRefIds": "GB2025XMPLR0000070079",
+    "count": "1"
+  },
+  {
+    "errorCode": "70080",
+    "description": "Each code for this AdjustmentItem element cannot be used more than once per ETR element in the Jurisdiction Section.",
+    "docRefIds": "GB2025XMPLR0000070080",
+    "count": "1"
+  },
+  {
+    "errorCode": "70081",
+    "description": "The total element should be equal to the following calculation: DeferredTaxAssetStart - DeferredTaxAssetExcluded OR DeferredTaxAssetRecast - DeferredTaxAssetExcluded",
+    "docRefIds": "GB2025XMPLR0000070081",
+    "count": "1"
+  },
+  {
+    "errorCode": "70082",
+    "description": "When the DeferredTaxAssets element is provided, then one of DeferredTaxAssetStart or DeferredTaxAssetRecast must contain the value of \u20180\u2019. To calculate the Deferred tax assets taken into account for GloBE purposes, either the DeferredTaxAsset at the start of the year or the DefferedTaxAsset recast at the minimum rate can be used. The value for the element not being used must be reported as '0'.",
+    "docRefIds": "GB2025XMPLR0000070082",
+    "count": "1"
+  },
+  {
+    "errorCode": "70083",
+    "description": "The Remaining value should equal the following calculation: PriorYearBalance + GeneratedInRFY - UtilizedInRFY",
+    "docRefIds": "GB2025XMPLR0000070083",
+    "count": "1"
+  },
+  {
+    "errorCode": "70084",
+    "description": "If the AdjustmentItem element has the value of GIR2719, then the value reported in the 'amount' element should be the same as the integer reported in the GeneratedInRFY element.",
+    "docRefIds": "GB2025XMPLR0000070084",
+    "count": "1"
+  },
+  {
+    "errorCode": "70085",
+    "description": "If the AdjustedItem element has the value of GIR2720, then the value reported in the 'amount' element should be the same as the integer reported in the UtilizedInRFY element",
+    "docRefIds": "GB2025XMPLR0000070085",
+    "count": "1"
+  },
+  {
+    "errorCode": "70086",
+    "description": "The ExcessProfits integer must be determined using the following calculation:\nNetGlobeIncome/Total - SubstanceExclusion/Total.\n\nIf SubstanceExclusion/Total is not provided, then should be treated as a 0 value. If the NetGlobeIncome/Total - SubstanceExclusion/Total results in a number less than 0, then ExcessProfits must equal 0.",
+    "docRefIds": "GB2025XMPLR0000070086",
+    "count": "1"
+  },
+  {
+    "errorCode": "70087",
+    "description": "The Total integer for the SubstanceExclusion must be determined using the following calculation:\n(PayrollCost * PayrollMarkUp) + (TangibleAssetValue * TangibleAssetMarkup)",
+    "docRefIds": "GB2025XMPLR0000070087",
+    "count": "1"
+  },
+  {
+    "errorCode": "70088",
+    "description": "The Art4.1.5 element must be completed if the OverallComputation/NetGlobeIncome/Total is a negative value",
+    "docRefIds": "GB2025XMPLR0000070088",
+    "count": "1"
+  },
+  {
+    "errorCode": "70089",
+    "description": "The AdjustedCoveredTax value should be a negative value",
+    "docRefIds": "GB2025XMPLR0000070089",
+    "count": "1"
+  },
+  {
+    "errorCode": "70090",
+    "description": "The GlobeLoss element must be the same as OverallComputation/NetGlobeIncome/Total value",
+    "docRefIds": "GB2025XMPLR0000070090",
+    "count": "1"
+  },
+  {
+    "errorCode": "70091",
+    "description": "The ExpectedAdjustedCoveredTax must be equal to the following calculation: GlobeLoss * 15%",
+    "docRefIds": "GB2025XMPLR0000070091",
+    "count": "1"
+  },
+  {
+    "errorCode": "70092",
+    "description": "The AdditionalTopUpTax integer must be determined using the following calculation:\nExpectedAdjustedCoveredTax \u2013 AdjustedCoveredTax.\n\nIf the ExpectedAdjustedCoveredTax - AdjustedCoveredTax results in a number less than 0, then AdditionalTopUpTax must equal 0.",
+    "docRefIds": "GB2025XMPLR0000070092",
+    "count": "1"
+  },
+  {
+    "errorCode": "70093",
+    "description": "The Year must not be greater than the YYYY value reported in the Period End Date",
+    "docRefIds": "GB2025XMPLR0000070093",
+    "count": "1"
+  },
+  {
+    "errorCode": "70094",
+    "description": "When the Articles contain the value of GIR2605, then the Year should be at least 4 years before the YYYY value reported in the Period End Date.",
+    "docRefIds": "GB2025XMPLR0000070094",
+    "count": "1"
+  },
+  {
+    "errorCode": "70095",
+    "description": "When the Articles contain the value of GIR2602, then the Year should be the fifth Fiscal Year preceding the YYYY value reported in the Period End Date",
+    "docRefIds": "GB2025XMPLR0000070095",
+    "count": "1"
+  },
+  {
+    "errorCode": "70096",
+    "description": "AdditionalTopUpTax must be calculated as follows:\nRecalculated/TopUpTax - Previous/TopUpTax",
+    "docRefIds": "GB2025XMPLR0000070096",
+    "count": "1"
+  },
+  {
+    "errorCode": "70097",
+    "description": "The InclusionRatio must equal the following calculation:\n(NetGlobeIncome -OtherOwnershipAllocation) DIVIDED by NetGlobeIncome",
+    "docRefIds": "GB2025XMPLR0000070097",
+    "count": "1"
+  },
+  {
+    "errorCode": "70098",
+    "description": "The IIR/ParentEntity/TopUpTaxShare must equal the following calculation: TopUpTax * InclusionRatio",
+    "docRefIds": "GB2025XMPLR0000070098",
+    "count": "1"
+  },
+  {
+    "errorCode": "70099",
+    "description": "The sum of 'UTPRTopUpTaxAttributed' should be equal to the sum of TotalUTPRTopUpTax amount in the JurisdictionSection element in respect to all jurisdictions",
+    "docRefIds": "GB2025XMPLR0000070099",
+    "count": "1"
+  },
+  {
+    "errorCode": "70100",
+    "description": "A UTPR Top up tax has been reported but the corresponding attribution of the UTRP has not been reported. When the UTPRCalculation is provided and the TotalUTPRTopUpTax element contains a value greater than 0 then the UTPRAttribution must be completed.",
+    "docRefIds": "GB2025XMPLR0000070100",
+    "count": "1"
+  },
+  {
+    "errorCode": "70101",
+    "description": "The employees element must be completed as there is no carry forward amount that still needs to be allocated to this jurisdiction",
+    "docRefIds": "GB2025XMPLR0000070101",
+    "count": "1"
+  },
+  {
+    "errorCode": "70102",
+    "description": "The TangibleAssetValue element must be completed as there is no carry forward amount that still needs to be allocated to this jurisdiction",
+    "docRefIds": "GB2025XMPLR0000070102",
+    "count": "1"
+  },
+  {
+    "errorCode": "70103",
+    "description": "The UTPRPercentage must be 0% when the UTPRTopUpTaxCarryForward is greater than 0.",
+    "docRefIds": "GB2025XMPLR0000070103",
+    "count": "1"
+  },
+  {
+    "errorCode": "70104",
+    "description": "The UTPRTopUpTaxCarriedForward cannot be a negative value.",
+    "docRefIds": "GB2025XMPLR0000070104",
+    "count": "1"
+  },
+  {
+    "errorCode": "70105",
+    "description": "The UTPRTopUpTaxCarriedForward must be determined using the following calculation:\nUTPRTopUpTaxCarryForward + UTPRTopUpTaxAttributed - AddCashTaxExpense",
+    "docRefIds": "GB2025XMPLR0000070105",
+    "count": "1"
+  },
+  {
+    "errorCode": "70106",
+    "description": "The OtherTIN must not be the same as the CEComputations/TIN.",
+    "docRefIds": "GB2025XMPLR0000070106",
+    "count": "1"
+  },
+  {
+    "errorCode": "70107",
+    "description": "Where the Exception element is TRUE due to the UPE being wholly owned by holders of Ownership Interest in respect of which Article 7.1 applies, the cross-border adjustment of table 3.2.4.1.c are not to be supplied",
+    "docRefIds": "GB2025XMPLR0000070107",
+    "count": "1"
+  },
+  {
+    "errorCode": "70108",
+    "description": "When the 'Basis' is GIR1901, GIR1902, GIR1905, GIR1906 then the 'EntityOwner/TaxRate' element or \u2018IndOwners/TaxRate\u2019 element must be completed",
+    "docRefIds": "GB2025XMPLR0000070108",
+    "count": "1"
+  },
+  {
+    "errorCode": "70109",
+    "description": "When the 'Basis' is GIR1907 then the 'ResCountryCode' element must be completed (i.e. the choice must be 'IndOwners')",
+    "docRefIds": "GB2025XMPLR0000070109",
+    "count": "1"
+  },
+  {
+    "errorCode": "70110",
+    "description": "When the 'Basis' is GIR1903 or GIR1908, then the IndOwners element must be completed",
+    "docRefIds": "GB2025XMPLR0000070110",
+    "count": "1"
+  },
+  {
+    "errorCode": "70111",
+    "description": "When the 'Basis' is GIR1904 or GIR1909, then the 'ExTypeOfEntity' must be completed (i.e. the choice must be 'EntityOwner')",
+    "docRefIds": "GB2025XMPLR0000070111",
+    "count": "1"
+  },
+  {
+    "errorCode": "70112",
+    "description": "When the 'Basis' is GIR1904, then the 'ExTypeOfEntity' must not contain the value of GIR2805.",
+    "docRefIds": "GB2025XMPLR0000070112",
+    "count": "1"
+  },
+  {
+    "errorCode": "70113",
+    "description": "When the 'Basis' is GIR1909, then the 'ExTypeOfEntity' must not contain the value of GIR2804.",
+    "docRefIds": "GB2025XMPLR0000070113",
+    "count": "1"
+  },
+  {
+    "errorCode": "70114",
+    "description": "If two values are provided for the'Amount', then one value must be negative and the other value positive (i.e. both values of the integer cannot be positive or negative)",
+    "docRefIds": "GB2025XMPLR0000070114",
+    "count": "1"
+  },
+  {
+    "errorCode": "70115",
+    "description": "When the 'AdjustmentItem' element contains the value GIR2022 and/or GIR2023 then the 'UPEAdjustments' element must be completed.",
+    "docRefIds": "GB2025XMPLR0000070115",
+    "count": "1"
+  },
+  {
+    "errorCode": "70116",
+    "description": "When the 'AdjustmentItem' element contains the value GIR2025 then the 'IntShippingIncome' element must be completed.",
+    "docRefIds": "GB2025XMPLR0000070116",
+    "count": "1"
+  },
+  {
+    "errorCode": "70117",
+    "description": "When the 'AdjustmentItem' element contains the value GIR2024 then the 'Art7.6' element must be completed.",
+    "docRefIds": "GB2025XMPLR0000070117",
+    "count": "1"
+  },
+  {
+    "errorCode": "70118",
+    "description": "If two values are provided for the'Amount', then one value must be negative and the other value positive (i.e. both values of the integer cannot be positive or negative)",
+    "docRefIds": "GB2025XMPLR0000070118",
+    "count": "1"
+  },
+  {
+    "errorCode": "70119",
+    "description": "Each code for this AdjustmentItem element cannot be used more than once per ETR element in the Jurisdiction Section",
+    "docRefIds": "GB2025XMPLR0000070119",
+    "count": "1"
+  },
+  {
+    "errorCode": "70120",
+    "description": "The Total element shall equal the following calculation: DeferTaxExpense + Sum of all values reported in Adjustments/Amount + Recast/Higher + Recast/Lower (if any element is not provided, it is treated as a 0 value)",
+    "docRefIds": "GB2025XMPLR0000070120",
+    "count": "1"
+  },
+  {
+    "errorCode": "70121",
+    "description": "Each code for this AdjustmentItem element cannot be used more than once per ETR element in the Jurisdiction Section.",
+    "docRefIds": "GB2025XMPLR0000070121",
+    "count": "1"
+  },
+  {
+    "errorCode": "70122",
+    "description": "If two values are provided for the Amount element, then one value must be negative and the other value must be positive (i.e. the values of the integer cannot be both positive or negative",
+    "docRefIds": "GB2025XMPLR0000070122",
+    "count": "1"
+  },
+  {
+    "errorCode": "70123",
+    "description": "The Additions element must not have a negative value",
+    "docRefIds": "GB2025XMPLR0000070123",
+    "count": "1"
+  },
+  {
+    "errorCode": "70124",
+    "description": "The Reductions element must not be a positive value",
+    "docRefIds": "GB2025XMPLR0000070124",
+    "count": "1"
+  },
+  {
+    "errorCode": "Custom Error Code 1",
+    "description": "A mismatch would be created in the exchanged GIR that would cause rule 70008 to fail.",
+    "docRefIds": "GB2025XMPLR0000000001",
+    "count": "1"
+  },
+  {
+    "errorCode": "Custom Error Code 2",
+    "description": "A mismatch would be created in the exchanged GIR that would cause rule 70040 to fail.",
+    "docRefIds": "GB2025XMPLR0000000002",
+    "count": "1"
+  },
+  {
+    "errorCode": "Custom Error Code 3",
+    "description": "A mismatch would be created in the exchanged GIR that would cause rule 70099 to fail.",
+    "docRefIds": "GB2025XMPLR0000000003",
+    "count": "1"
+  },
+  {
+    "errorCode": "Custom Error Code 4",
+    "description": "A mismatch would be created in the exchanged GIR that would cause rule 70100 to fail.",
+    "docRefIds": "GB2025XMPLR0000000004",
+    "count": "1"
+  },
+  {
+    "errorCode": "Custom Error Code 5",
+    "description": "A mismatch would be created in the exchanged GIR that would cause rule 70045 to fail.",
+    "docRefIds": "GB2025XMPLR0000000005",
+    "count": "1"
+  },
+  {
+    "errorCode": "Custom Error Code 6",
+    "description": "A mismatch would be created in the exchanged GIR that would cause rule 70047 to fail.",
+    "docRefIds": "GB2025XMPLR0000000006",
+    "count": "1"
+  },
+  {
+    "errorCode": "Custom Error Code 7",
+    "description": "A mismatch would be created in the exchanged GIR that would cause rule 70048 to fail.",
+    "docRefIds": "GB2025XMPLR0000000007",
+    "count": "1"
+  },
+  {
+    "errorCode": "Custom Error Code 8",
+    "description": "A mismatch would be created in the exchanged GIR that would cause rule 70049 to fail.",
+    "docRefIds": "GB2025XMPLR0000000008",
+    "count": "1"
+  },
+  {
+    "errorCode": "Custom Error Code 9",
+    "description": "A mismatch would be created in the exchanged GIR that would cause rule 70050 to fail.",
+    "docRefIds": "GB2025XMPLR0000000009",
+    "count": "1"
+  },
+  {
+    "errorCode": "Custom Error Code 10",
+    "description": "A mismatch would be created in the exchanged GIR that would cause rule 70051 to fail.",
+    "docRefIds": "GB2025XMPLR0000000010",
+    "count": "1"
+  },
+  {
+    "errorCode": "Custom Error Code 11",
+    "description": "A mismatch would be created in the exchanged GIR that would cause rule 70052 to fail.",
+    "docRefIds": "GB2025XMPLR0000000011",
+    "count": "1"
+  },
+  {
+    "errorCode": "Custom Error Code 12",
+    "description": "A mismatch would be created in the exchanged GIR that would cause rule 70053 to fail.",
+    "docRefIds": "GB2025XMPLR0000000012",
+    "count": "1"
+  }
+]
