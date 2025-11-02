@@ -25,6 +25,7 @@ import uk.gov.hmrc.hmrcemailrenderer.templates.tctr.TctrTemplates._
 import uk.gov.hmrc.hmrcemailrenderer.templates.customsfinancials.CustomsFinancialsTemplates.customsFinancialsChangeEmailAddress
 
 import java.util.{ Base64, UUID }
+import scala.io.Source
 
 object TemplateParams {
   val exampleLinkWithRandomId = s"http://host:8080/your/link/${UUID.randomUUID}"
@@ -4025,6 +4026,8 @@ object TemplateParams3 {
       "submissionTime"        -> "15:20",
       "accountingPeriodStart" -> "01/04/2024",
       "accountingPeriodEnd"   -> "31/03/2025",
+      // Using minimal example to avoid URI length limits in preview links
+      // For full error list testing, see GENERIC_ERRORS_TESTING.md
       "errors" -> stringify(parse("""[
         {
           "errorCode": "Error Code 16",
@@ -4039,8 +4042,8 @@ object TemplateParams3 {
           "count": "1"
         },
         {
-          "errorCode": "Error Code 35",
-          "description": "The MessageRefId must be unique and must not have been used in a previous message.",
+          "errorCode": "60019",
+          "description": "The role provided for the Filing CE is GIR403, GIR404 or GIR405.",
           "docRefIds": "GB2025PLRX456789",
           "count": "1"
         }
@@ -4051,24 +4054,26 @@ object TemplateParams3 {
       "pillar2Id"      -> "XMPLR5556667777",
       "submissionDate" -> "15/10/2025",
       "submissionTime" -> "16:45",
+      // Using minimal example to avoid URI length limits in preview links
+      // For full error list testing, load from app/preview/errorData.json
       "errors" -> stringify(parse("""[
         {
-          "errorCode": "Temp Pillar 2 Error Code 1",
-          "businessRuleName": "Failed Threat Scan",
-          "errorLevel": "DocRefId(s)",
-          "description": "Submissions must not include Prohibited Characters or Entity References in the MessageRefId or DocRefId. Submissions must not include Prohibited Characters, these have to be escaped using Entity References in all element values in the DPIBody."
+        "errorCode":	"Temp Pillar 2 Error Code 1",	
+        "businessRuleName": "Failed Threat Scan",
+        "errorLevel":	"DocRefId(s)",	
+        "description":	"Submissions must not include Prohibited Characters or Entity References in the MessageRefId or DocRefId."
         },
         {
-          "errorCode": "Temp Pillar 2 Error Code 2",
-          "businessRuleName": "Failed Schema Validation",
-          "errorLevel": "File",
-          "description": "The referenced file failed validation against the GIR XML Schema."
+        "errorCode":	"Temp Pillar 2 Error Code 2",	
+        "businessRuleName": "Failed Threat Scan",
+        "errorLevel":	"File",	
+        "description":	"The referenced file failed validation against the GIR XML Schema."
         },
         {
-          "errorCode": "Temp Pillar 2 Error Code 4",
-          "businessRuleName": "Test Data",
-          "errorLevel": "DocRefId(s)",
-          "description": "The referenced file contains one or more records with a DocTypeIndic value in the range OECD10-OECD13, indicating test data. As a result, the receiving Competent Authority cannot accept this file as a valid GIR file submission."
+        "errorCode":	"60019",	
+        "businessRuleName": "Failed Threat Scan",
+        "errorLevel":	"DocRefId (Record)",	
+        "description":	"The role provided for the Filing CE is GIR403, GIR404 or GIR405, which indicates that GIR is being filed locally and must not be exchanged."
         }
       ]"""))
     )
