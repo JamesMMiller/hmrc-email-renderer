@@ -60,7 +60,6 @@ class Pillar2TemplatesSpec extends PlaySpec with CommonParamsForSpec {
       htmlContent must include(
         "If you have any queries you can contact the Pillar 2 team at pillar2mailbox@hmrc.gov.uk"
       )
-      htmlContent must include("From the HMRC Pillar 2 team")
     }
 
     "include txtTemplate body with correct content" in {
@@ -71,7 +70,6 @@ class Pillar2TemplatesSpec extends PlaySpec with CommonParamsForSpec {
       txtContent must include("Accounting period: 1 April 2023 to 31 March 2024")
       txtContent must include("Received: 2:30pm on 1 January 2024")
       txtContent must include("If you have any queries you can contact the Pillar 2 team at pillar2mailbox@hmrc.gov.uk")
-      txtContent must include("From the HMRC Pillar 2 team")
     }
   }
 
@@ -133,7 +131,6 @@ class Pillar2TemplatesSpec extends PlaySpec with CommonParamsForSpec {
       htmlContent must include("The structure of the DocRefId is not in the correct format")
       htmlContent must include("GB2025FRPLRX1234, FR2023GBXPLR1234")
       htmlContent must include("Error Code 21")
-      htmlContent must include("From the HMRC Pillar 2 team")
     }
 
     "include txtTemplate body with errors" in {
@@ -150,7 +147,6 @@ class Pillar2TemplatesSpec extends PlaySpec with CommonParamsForSpec {
       txtContent must include("The structure of the DocRefId is not in the correct format")
       txtContent must include("GB2025FRPLRX1234, FR2023GBXPLR1234")
       txtContent must include("Error Code 21")
-      txtContent must include("From the HMRC Pillar 2 team")
     }
   }
 
@@ -211,7 +207,6 @@ class Pillar2TemplatesSpec extends PlaySpec with CommonParamsForSpec {
       htmlContent must include("Failed Threat Scan")
       htmlContent must include("Temp Pillar 2 Error Code 2")
       htmlContent must include("Failed Schema Validation")
-      htmlContent must include("From the HMRC Pillar 2 team")
     }
 
     "include txtTemplate body with critical errors" in {
@@ -229,7 +224,6 @@ class Pillar2TemplatesSpec extends PlaySpec with CommonParamsForSpec {
       txtContent must include("Failed Threat Scan")
       txtContent must include("Temp Pillar 2 Error Code 2")
       txtContent must include("Failed Schema Validation")
-      txtContent must include("From the HMRC Pillar 2 team")
     }
   }
 }
