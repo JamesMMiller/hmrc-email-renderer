@@ -17,7 +17,7 @@
 @import uk.gov.hmrc.hmrcemailrenderer.templates.pillar2.Pillar2DateTimes.*
 
 @(params: Map[String, Any])
-@uk.gov.hmrc.hmrcemailrenderer.templates.helpers.html.template_main(params, "Your GloBE Information Return (GIR) has been received") {
+@uk.gov.hmrc.hmrcemailrenderer.templates.helpers.html.template_main(params, "Your GloBE Information Return (GIR) has been successfully submitted") {
 
 <p style="font-size: 20px; line-height: 1.315789474; margin: 0 0 30px 0;">GIR Reference ID: @{params("referenceId")}</p>
 
@@ -28,7 +28,5 @@
 <p style="font-size: 20px; line-height: 1.315789474; margin: 0 0 30px 0;">Received: @{toTwelveHourUserFacing(params("submissionTime").toString)} on @{ukAllNumericDateToUserFacing(params("submissionDate").toString)}</p>
 
 <p style="font-size: 20px; line-height: 1.315789474; margin: 0 0 30px 0;">If you have any queries you can contact the Pillar 2 team at pillar2mailbox@@hmrc.gov.uk</p>
-
-<p style="font-size: 20px; line-height: 1.315789474; margin: 60px 0 30px 0;">From the HMRC Pillar 2 team</p>
 
 }

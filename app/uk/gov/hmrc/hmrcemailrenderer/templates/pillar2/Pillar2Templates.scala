@@ -28,7 +28,7 @@ object Pillar2Templates {
       templateId = "pillar2_gir_submission_successful",
       fromAddress = FromAddress.noReply("pillar2"),
       service = Pillar2,
-      subject = "Successful submission of GloBE Information Return (GIR) – Pillar 2 Top-up Taxes",
+      subject = "Successful submission of GloBE Information Return (GIR)",
       plainTemplate = txt.girSubmissionSuccessful.f,
       htmlTemplate = html.girSubmissionSuccessful.f,
       priority = Some(MessagePriority.Urgent)
@@ -37,7 +37,7 @@ object Pillar2Templates {
       templateId = "pillar2_gir_submission_generic_errors",
       fromAddress = FromAddress.noReply("pillar2"),
       service = Pillar2,
-      subject = "There is a problem with your GloBE Information Return (GIR) - Pillar 2 Top-up Taxes",
+      subject = "There is a problem with your GloBE Information Return (GIR)",
       plainTemplate = txt.girSubmissionGenericErrors.f,
       htmlTemplate = html.girSubmissionGenericErrors.f,
       priority = Some(MessagePriority.Urgent)
@@ -46,7 +46,7 @@ object Pillar2Templates {
       templateId = "pillar2_gir_submission_critical_errors",
       fromAddress = FromAddress.noReply("pillar2"),
       service = Pillar2,
-      subject = "There is a problem with your GloBE Information Return (GIR) - Pillar 2 Top-up Taxes",
+      subject = "There is a problem with your GloBE Information Return (GIR)",
       plainTemplate = txt.girSubmissionCriticalErrors.f,
       htmlTemplate = html.girSubmissionCriticalErrors.f,
       priority = Some(MessagePriority.Urgent)
